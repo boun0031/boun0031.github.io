@@ -38,7 +38,7 @@ nav a {
     border: 1px solid #333; 
     color: white; 
     margin-right: 10px; 
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 nav a:hover, nav a:focus {
