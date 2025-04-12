@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/4e866689af.js" crossorigin="anonymous"></script>
     <title>Halima Bounouri</title>
 </head>
 <body>
@@ -19,14 +21,14 @@
                 <li><a href="#team">employees</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <input type="text" placeholder="Search-bar">
+            <input type="text" placeholder="Search-bar"> <button><i class="fa-solid fa-magnifying-glass"></i>/button>
         </nav>
     </header>
 
     <section class="hero-section">
         <h1>Welcome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt.</p>
-        <button>Communicate with us</button>
+        <a href="#">Connect with us <i class="fa-solid fa-caret-right"></i> </a>
     </section>
 
     <section id="about">
@@ -41,38 +43,38 @@
             <img src="images/digital.jpg" alt="Digital Transformation">
             <h3>Digital Transformation</h3>
             <p>Description of the service.</p>
-            <button>Digital Plans</button>
+            <a href="#">Digital Plans <i class="fa-solid fa-caret-right"></i> </a>
         </div>
         <div class="service">
             <img src="images/marketing.jpg" alt="Marketing">
             <h3>Marketing</h3>
             <p>Description of the service.</p>
-            <button>Marketing Plans</button>
+            <a href="#">Marketing Plans <i class="fa-solid fa-caret-right"></i> </a>
         </div>
         <div class="service">
             <img src="images/video.jpg" alt="Video Production">
             <h3>Video Production</h3>
             <p>Description of the service.</p>
-            <button>Video Plans</button>
+            <a href="#">Video Plans <i class="fa-solid fa-caret-right"></i> </a>
         </div>
         <div class="service">
             <img src="images/web.jpg" alt="Web Development">
-            <h3>Web Design</h3>
+            <h3>Web Development</h3>
             <p>Description of the service.</p>
-            <button>Web work</button>
+            <a href="#">Web Plans<i class="fa-solid fa-caret-right"></i> </a>
         </div>
         <div class="service">
             <img src="images/print.jpg" alt="Print">
-            <h3>Printer</h3>
+            <h3>Print</h3>
             <p>Description of the service.</p>
-            <button>Printer work</button>
+            <a href="#">Print Plans<i class="fa-solid fa-caret-right"></i> </a>
         </div>
     </section>
 
     <section class="vision">
         <h2>Our Vision</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button>Learn More</button>
+        <a href="#">Learn More<i class="fa-solid fa-caret-right"></i> </a>
     </section>
 
     <section id="team">
@@ -80,12 +82,14 @@
         <div class="team-member">
             <img src="images/john.jpg" alt="John Doe">
             <h3>John Doe</h3>
-            <p>CEO & Co-founder</p>
+            <h4>CEO & Co-founder</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium consequatur, autem, id molestiae iure voluptatem, nostrum quae odit delectus impedit unde adipisci incidunt consequuntur rerum veritatis quibusdam? Voluptatum, sequi repudiandae!</p>
         </div>
         <div class="team-member">
             <img src="images/bob.jpg" alt="Bob Rite">
             <h3>Bob Rite</h3>
-            <p>Co-founder</p>
+            <h4>Co-founder</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, autem necessitatibus tempora accusamus vitae repudiandae inventore, eum excepturi praesentium explicabo quidem minima optio dignissimos? Quod iure voluptatum dolorem dicta quisquam.'</p>
         </div>
     </section>
 
@@ -104,29 +108,33 @@
             <button type="submit">Send</button>
         </form>
 
-        <div class="map">
-            <h3>Location</h3>
-            <img src="images/map.jpg" alt="Location Map">
-        </div>
     </section>
 
     <section class="hours">
         <h2>Hours of Operation</h2>
         <table>
-            <tr>
-                <th>Day</th>
-                <th>Hours</th>
-            </tr>
-            <tr>
-                <td>Monday - Friday</td>
-                <td>8AM - 4PM</td>
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td>Closed</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>8AM - 4PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
         </table>
     </section>
+    <div class="map">
+        <h3>Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9503602618324!2d-75.75533349999998!3d45.3498143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1744478887400!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <footer>
         <p>&copy; Copyright Three Star Media, 2025</p>
